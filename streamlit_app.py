@@ -1,4 +1,4 @@
-pip install streamlit
+
 
 import sqlite3
 
