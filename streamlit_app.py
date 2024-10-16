@@ -1,7 +1,4 @@
-import streamlit as st
-import pandas as pd
-import sqlite3
-from datetime import datetime
+pip install streamlit
 
 import sqlite3
 
@@ -22,6 +19,11 @@ CREATE TABLE IF NOT EXISTS bookings (
 
 conn.commit()
 conn.close()
+
+import streamlit as st
+import pandas as pd
+import sqlite3
+from datetime import datetime
 
 # เชื่อมต่อกับฐานข้อมูล
 def connect_db():
