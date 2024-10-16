@@ -1,4 +1,4 @@
-pip install streamlit pandas sqlalchemy
+
 
 import sqlite3
 
@@ -72,4 +72,4 @@ if not bookings.empty:
 else:
     st.write("ไม่มีการจองห้องในขณะนี้")
 
-streamlit run app.py
+
